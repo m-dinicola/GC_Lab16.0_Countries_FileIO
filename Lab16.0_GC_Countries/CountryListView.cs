@@ -11,7 +11,7 @@ namespace Lab16._0_GC_Countries
         {
             for (int i = 0; i < countries.Count; i++)
             {
-                Console.WriteLine($"{i}. {countries[i].Name}");
+                Console.WriteLine(String.Format("{0,-3} {1}",i+".",countries[i].Name));
             }
         }
     }

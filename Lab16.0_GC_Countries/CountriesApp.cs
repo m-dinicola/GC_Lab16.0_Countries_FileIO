@@ -52,6 +52,7 @@ namespace Lab16._0_GC_Countries
             if (countryDB.Exists(x => x.Name.ToLower() == name.ToLower()))
             {
                 countryDB.Remove(countryDB.Find(x => x.Name.ToLower() == name.ToLower()));
+                CountriesTextFile.WriteCountries(countryDB);
                 Console.WriteLine($"{name} has been removed from the list.");
                 return;
             }
