@@ -6,7 +6,8 @@ namespace Lab16._0_GC_Countries
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            CountriesApp.WelcomeAction();
+            Console.WriteLine("Goodbye!");
         }
     }
 }

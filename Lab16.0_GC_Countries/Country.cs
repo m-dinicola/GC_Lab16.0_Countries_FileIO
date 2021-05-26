@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab16._0_GC_Countries
 {
-    enum Continent
+    public enum Continent
     {
         Africa,
         Antarctica,
@@ -16,7 +16,7 @@ namespace Lab16._0_GC_Countries
     }
 
 
-    class Country
+    public class Country
     {
         public string Name { set; get; }
         public Continent Continent { set; get; }

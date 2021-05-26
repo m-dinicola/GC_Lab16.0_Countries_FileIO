@@ -1,0 +1,14 @@
+﻿United States of America|North America|Red,White,Blue|English|true
+Japan|Asia|White,Red|Japanese|false
+Belgium|Europe|Black,Yellow,Red|Belgian|false
+Equatorial Guinea|Africa|Yellow,Green,Red,Blue|Spanish|false
+Ethiopia|Africa|Yellow,Green,Blue,Red|Amharic|false
+Azerbaijan|Europe|Blue,Red,Green,White|Azerbaijani|false
+Peru|South America|White,Red|Spanish|false
+Tasmania|Australia|Blue,White,Red|English|false
+Papua New Guinea|Australia|Black,Red,White,Yellow|Tok Pisin|false
+Australia|Australia|Blue,White,Red|English|false
+Mexico|North America|White,Green,Red|Spanish|false
+Canada|North America|Red,White|English|false
+Jamaica|North America|Green,Black,Yellow,Black|English|false
+Antarctic Treaty|Antarctica|Blue,White|English|false

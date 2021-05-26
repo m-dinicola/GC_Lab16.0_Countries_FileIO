@@ -1,0 +1,14 @@
+U:\Mario\source\repos\Lab16.0_GC_Countries\Lab16.0_GC_Countries\bin\Debug\netcoreapp3.1\Lab16.0_GC_Countries.exe
+U:\Mario\source\repos\Lab16.0_GC_Countries\Lab16.0_GC_Countries\bin\Debug\netcoreapp3.1\Lab16.0_GC_Countries.deps.json
+U:\Mario\source\repos\Lab16.0_GC_Countries\Lab16.0_GC_Countries\bin\Debug\netcoreapp3.1\Lab16.0_GC_Countries.runtimeconfig.json
+U:\Mario\source\repos\Lab16.0_GC_Countries\Lab16.0_GC_Countries\bin\Debug\netcoreapp3.1\Lab16.0_GC_Countries.runtimeconfig.dev.json
+U:\Mario\source\repos\Lab16.0_GC_Countries\Lab16.0_GC_Countries\bin\Debug\netcoreapp3.1\Lab16.0_GC_Countries.dll
+U:\Mario\source\repos\Lab16.0_GC_Countries\Lab16.0_GC_Countries\bin\Debug\netcoreapp3.1\Lab16.0_GC_Countries.pdb
+U:\Mario\source\repos\Lab16.0_GC_Countries\Lab16.0_GC_Countries\obj\Debug\netcoreapp3.1\Lab16.0_GC_Countries.csprojAssemblyReference.cache
+U:\Mario\source\repos\Lab16.0_GC_Countries\Lab16.0_GC_Countries\obj\Debug\netcoreapp3.1\Lab16.0_GC_Countries.AssemblyInfoInputs.cache
+U:\Mario\source\repos\Lab16.0_GC_Countries\Lab16.0_GC_Countries\obj\Debug\netcoreapp3.1\Lab16.0_GC_Countries.AssemblyInfo.cs
+U:\Mario\source\repos\Lab16.0_GC_Countries\Lab16.0_GC_Countries\obj\Debug\netcoreapp3.1\Lab16.0_GC_Countries.csproj.CoreCompileInputs.cache
+U:\Mario\source\repos\Lab16.0_GC_Countries\Lab16.0_GC_Countries\obj\Debug\netcoreapp3.1\Lab16.0_GC_Countries.dll
+U:\Mario\source\repos\Lab16.0_GC_Countries\Lab16.0_GC_Countries\obj\Debug\netcoreapp3.1\Lab16.0_GC_Countries.pdb
+U:\Mario\source\repos\Lab16.0_GC_Countries\Lab16.0_GC_Countries\obj\Debug\netcoreapp3.1\Lab16.0_GC_Countries.genruntimeconfig.cache
+U:\Mario\source\repos\Lab16.0_GC_Countries\Lab16.0_GC_Countries\bin\Debug\netcoreapp3.1\countries.txt

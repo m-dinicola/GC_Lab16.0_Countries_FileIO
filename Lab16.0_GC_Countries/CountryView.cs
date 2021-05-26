@@ -4,26 +4,19 @@ using System.Text;
 
 namespace Lab16._0_GC_Countries
 {
-	class CountryView
+	static class CountryView
 	{
-		public Country DisplayCountry;
-
-		public CountryView(Country displayCountry)
+		public static void Display(Country displayCountry)
 		{
-			DisplayCountry = displayCountry;
-		}
-
-		public void Display()
-		{
-			string outputString = $"{DisplayCountry.Name} is in " +
-								$"{DisplayCountry.Continent.ToString().Replace('_', ' ')} and has"; //removes the underscore in continent Enum.
-			foreach (string color in DisplayCountry.Colors)      //include the colors in the output string.
+			string outputString = $"{displayCountry.Name} is in " +
+								$"{displayCountry.Continent.ToString().Replace('_', ' ')} and has"; //removes the underscore in continent Enum.
+			foreach (string color in displayCountry.Colors)      //include the colors in the output string.
 			{
 				outputString += $" {color},";
 			}
 
 			outputString = outputString.Remove(outputString.Length - 1);        //remove the last comma
-			int colorCount = DisplayCountry.Colors.Count;                       //count the colors, for dealing with plurals and edge cases.
+			int colorCount = displayCountry.Colors.Count;                       //count the colors, for dealing with plurals and edge cases.
 			if (colorCount == 1)
 			{
 				outputString += "as its color.\n";
@@ -33,12 +26,12 @@ namespace Lab16._0_GC_Countries
 				outputString = outputString.Insert(outputString.LastIndexOf(','), " and") + " as its colors.\n"; //Lists with multiple should have an and
 				outputString = outputString.Remove(outputString.LastIndexOf(','), 1);                           //and no comma before the last list item.
 			}
-			string outputStringLine2 = $"{DisplayCountry.Name}'s primary language is {DisplayCountry.Language}, " +
-							$"and it {(DisplayCountry.HasNuclearWMD ? "does" : "does not")} have nuclear weapons. ";
+			string outputStringLine2 = $"{displayCountry.Name}'s primary language is {displayCountry.Language}, " +
+							$"and it {(displayCountry.HasNuclearWMD ? "does" : "does not")} have nuclear weapons. ";
 
 			//dealing with colors
 			List<ConsoleColor> colorSet = new List<ConsoleColor>();     //declare a list of colors from which we will set the console
-			foreach (string color in DisplayCountry.Colors)
+			foreach (string color in displayCountry.Colors)
 			{             //cycle through country colors
 				try
 				{
