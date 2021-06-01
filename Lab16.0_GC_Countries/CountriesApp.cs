@@ -57,7 +57,7 @@ namespace Lab16._0_GC_Countries
                 return;
             }
             Continent continent = PromptForContinent($"Please enter the continent on which {name} sits:");
-            List<string> colors = PromptForStringList($"Please enter a color for {name}: ", $"If {name} has another color, enter it here.\nIf there are no more colors, simply enter nothing to quit.");
+            List<string> colors = PromptForStringList($"Please enter a color for {name}: ", $"If {name} has another color, enter it here.\nIf there are no more colors, simply enter nothing to move on.");
             string language = PromptForString($"What language is most commonly spoken or official in {name}?");
             bool hasNuclearWMD = PromptForBool($"Does {name} have nuclear weapons?");
             CountriesTextFile.WriteCountries(new Country(name, continent, colors, language, hasNuclearWMD));

@@ -19,7 +19,7 @@ namespace Lab16._0_GC_Countries
 			int colorCount = displayCountry.Colors.Count;                       //count the colors, for dealing with plurals and edge cases.
 			if (colorCount == 1)
 			{
-				outputString += "as its color.\n";
+				outputString += " as its color.\n";
 			}
 			else
 			{

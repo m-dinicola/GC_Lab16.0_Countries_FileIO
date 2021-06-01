@@ -14,7 +14,7 @@ namespace Lab16._0_GC_Countries
         {
 
             List<Country> countries = new List<Country>();                 //Creates a list of string arrays in which we will collect the values of a csv source
-            string[] lines = File.ReadAllLines("countries.txt");           //This string array keeps a string for each line in the source csv
+            string[] lines = File.ReadAllLines("../../../countries.txt");           //This string array keeps a string for each line in the source csv
             foreach (string line in lines)                                 //Cycles through each line
             {
                                                                             //splits each line at the pipe, ouputs as a string[4],
@@ -50,8 +50,8 @@ namespace Lab16._0_GC_Countries
             {
                 returnString += s + ",";
             }
-            returnString.Remove(returnString.Length - 1);
-            returnString += $"|{c.Language}|{c.HasNuclearWMD}\n";
+            returnString = returnString.Remove(returnString.Length - 1);
+            returnString += $"|{c.Language}|{c.HasNuclearWMD}";
 
             return returnString;
         }
@@ -60,23 +60,20 @@ namespace Lab16._0_GC_Countries
         public static void WriteCountries(Country c)
         {
             _countries.Add(c);
-            if (!File.Exists(@"..\..\countries.txt"))
-            {
-                File.AppendAllText(@"..\..\countries.txt",CountryToString(c));
-            }
+
+                WriteCountries(_countries);
         }
 
         //send a list to overwrite the current list and write to the file
         public static void WriteCountries(List<Country> countries)
         {
             _countries = countries;
-            using (StreamWriter fs = new StreamWriter(@"..\..\countries.txt")) {
+            using (StreamWriter fs = new StreamWriter("../../../countries.txt")) {
                 foreach (Country c in countries)
                 {
                     fs.WriteLine(CountryToString(c));
                 }
             }
-
         }
     }
 }

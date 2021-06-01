@@ -1,14 +1,16 @@
-﻿United States of America|North America|Red,White,Blue|English|true
-Japan|Asia|White,Red|Japanese|false
-Belgium|Europe|Black,Yellow,Red|Belgian|false
-Equatorial Guinea|Africa|Yellow,Green,Red,Blue|Spanish|false
-Ethiopia|Africa|Yellow,Green,Blue,Red|Amharic|false
-Azerbaijan|Europe|Blue,Red,Green,White|Azerbaijani|false
-Peru|South America|White,Red|Spanish|false
-Tasmania|Australia|Blue,White,Red|English|false
-Papua New Guinea|Australia|Black,Red,White,Yellow|Tok Pisin|false
-Australia|Australia|Blue,White,Red|English|false
-Mexico|North America|White,Green,Red|Spanish|false
-Canada|North America|Red,White|English|false
-Jamaica|North America|Green,Black,Yellow,Black|English|false
-Antarctic Treaty|Antarctica|Blue,White|English|false
+United States of America|North_America|red,white,blue|English|True
+Japan|Asia|white,red|Japanese|False
+Belgium|Europe|black,yellow,red|Belgian|False
+Equatorial Guinea|Africa|yellow,green,red,blue|Spanish|False
+Ethiopia|Africa|yellow,green,blue,red|Amharic|False
+Azerbaijan|Europe|blue,red,green,white|Azerbaijani|False
+Peru|South_America|white,red|Spanish|False
+Tasmania|Australia|blue,white,red|English|False
+Papua New Guinea|Australia|black,red,white,yellow|Tok Pisin|False
+Australia|Australia|blue,white,red|English|False
+Mexico|North_America|white,green,red|Spanish|False
+Canada|North_America|red,white|English|False
+Jamaica|North_America|green,black,yellow,black|English|False
+Antarctic Treaty|Antarctica|blue,white|English|False
+Norway|Europe|red,white,blue|Norwegian|False
+Greenland|North_America|red,white|Greenlandic|False
